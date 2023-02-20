@@ -24,7 +24,7 @@
 
 ### B. QB-WEAPONS
 
-3. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" OR amend your qb-weapons as follows: 
+# 3. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" (and then delete that folder) OR amend your qb-weapons as follows: #
 
 4. After line 60 of client/main.lua include the following additional functions: 
 
