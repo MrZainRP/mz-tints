@@ -1,5 +1,9 @@
 ### MZ-TINTS - an XP sink where players exchange XP for tints + other possible rewards
 
+Tints and weapon finishes are underused and underappreciated in my experience. mz-tints seeks to make tints accessible to players as a flex for trading in certain hard-earned XP - for use with mz-skills. 
+
+# 1. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" (and then delete that folder) OR amend your qb-weapons as set out at steps 4 and 5. #
+
 ### Introduction 
 - Includes a modification to qb-weapons to make colourful tint sprays include a progress bar re: application and remove the item upon use;
 - Players can exchange the XP of up to 6 skills (connected to mz-skills; set by config) for tint tokens to acquire temporary and permanent weapon tints;
@@ -17,8 +21,6 @@
 **[qb-target](https://github.com/qbcore-framework/qb-target)**
 
 ### Installation Instruction
-
-# 1. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" (and then delete that folder) OR amend your qb-weapons as set out at steps 4 and 5. #
 
 ### A. MZ-SKILLS
 
