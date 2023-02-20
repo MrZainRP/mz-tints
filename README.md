@@ -11,20 +11,24 @@
 ### Dependencies
 
 **[mz-skills](https://github.com/MrZainRP/mz-skills)**
+
 **[progressbar](https://github.com/qbcore-framework/progressbar)**
+
 **[qb-target](https://github.com/qbcore-framework/qb-target)**
 
 ### Installation Instruction
 
+# 1. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" (and then delete that folder) OR amend your qb-weapons as set out at steps 4 and 5. #
+
 ### A. MZ-SKILLS
 
-1. If you do not already have mz-skills running in your server, ensure that mz-skills forms part of your running scripts. 
+2. If you do not already have mz-skills running in your server, ensure that mz-skills forms part of your running scripts. 
 
-2. If this is your first time running mz-skills, be sure to run the "skills.sql" sql file and open the database. (This will add a data table to the existing "players" database which will hold the skill value for "Scraping" as well as other jobs)
+3. If this is your first time running mz-skills, be sure to run the "skills.sql" sql file and open the database. (This will add a data table to the existing "players" database which will hold the skill value for "Scraping" as well as other jobs)
 
 ### B. QB-WEAPONS
 
-# 3. This resource includes a modification to qb-weapons. Either take the client and server files from the folder "weapons replacement" (and then delete that folder) OR amend your qb-weapons as follows: #
+IF YOU DID NOT EXTRACT THE INCLUDED CLIENT AND SERVER FILES FOR QB-WEAPONS THEN PLEASE DO STEPS 4 AND 5:
 
 4. After line 60 of client/main.lua include the following additional functions: 
 
